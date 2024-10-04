@@ -17,8 +17,6 @@ const signupSchema = zod.object({
 
 
 
-
-
 try {
     router.post("/signup",async (req, res)=>{
         const {userName , lastName , firstName , password} = req.body
